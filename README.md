@@ -1,4 +1,5 @@
-# study
+# Study
+
 サンプルコードとか
 
 ### Languages
