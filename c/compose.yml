@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/workspace
+    tty: true
+    stdin_open: true
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined
